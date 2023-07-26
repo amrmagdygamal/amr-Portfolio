@@ -1,0 +1,74 @@
+.experience {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
+
+
+.experience__frontend, .experience__backend {
+  background: var(--color-variant);
+  padding: 2.4rem 4rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  display: flex;
+  flex-direction: column;
+  ;
+
+}
+
+.experience__frontend:hover , .experience__backend:hover {
+background: transparent;
+border-color: var(--primary-variant);
+
+}
+
+.experience__heading {
+  text-align: center;
+  color: var(--primary-color);
+  margin-bottom: 2rem;
+}
+
+.skills__box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2rem;
+  position: relative;
+  padding-left: 4rem;
+}
+
+.skill__box {
+  display: flex;
+  gap: 1rem;
+  
+}
+
+.iconCheck {
+  position: absolute;
+  margin-left: -2rem;
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .experience {
+    grid-template-columns: 1fr;
+  }
+
+  .experience__backend, .experience__frontend {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+
+@media screen and (max-width: 1200px) {
+  .experience__backend, .experience__frontend {
+    padding: 2rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .experience__backend, .experience__frontend {
+    width: 100%;
+    padding: 1rem .2rem;
+  }
+}

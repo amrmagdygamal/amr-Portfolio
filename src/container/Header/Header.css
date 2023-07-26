@@ -1,0 +1,89 @@
+header {
+  height: 100vh;
+  overflow: hidden;
+  padding: 7rem;
+}
+
+.container.header {
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+/* style buttons */
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .8rem;
+  position: absolute;
+  bottom: 3rem;
+  left: 0;
+}
+
+.socials::after {
+  content: "";
+  background-color: var(--primary-color);
+  width: 1px;
+  height: 2rem;
+}
+
+
+.mePhoto {
+  background: linear-gradient(var(--primary-color), transparent);
+  width: 20rem;
+  left: 50%;
+  position: absolute;
+  margin-top: 4rem;
+  transform: translateX(-50%);
+  border-radius: 12rem 12rem 0 0;
+  overflow: hidden;
+  padding: 1rem 0 0 0;
+}
+
+.mePhoto img {
+  margin-left: 10px;
+}
+
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: .9rem;
+  bottom: 5rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+  /* header {
+    height: 70vh;
+  } */
+}
+
+@media screen and (max-width: 700px) {
+  header {
+    height: 100vh;
+  }
+
+  .scroll_down , .socials {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  header {
+    padding:  4rem 2rem;
+  }
+
+  .mePhoto {
+    max-width: 90%;
+  }
+}

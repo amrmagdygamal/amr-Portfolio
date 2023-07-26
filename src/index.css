@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --font-base: "Poppins", sans-serif;
+  --font-alt: 'Open Sans', sans-serif;
+
+  
+    --font-base: "Poppins", sans-serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --color-golden: #DCCA87;
+    --color-black: #0C0C0C;
+    --color-gray: #545454;
+    --color-crimson: #F5EFDB;
+    --color-light: rgba(255, 255, 255, .6);
+    --color-white: #FFFFFF;
+    --main-color: #000000;
+    --color-variant: #5f4614;
+    --primary-color: #ff9800;
+    --variant-primary: #ff9800;
+    --transition: all .4s ease;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  list-style: none;
+  outline: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: var(--font-base);
+  color: var(--color-white);
+  line-height: 1.7;
+}
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 7rem;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+.slide-bottom {
+  -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes slide-bottom {
+  0% {
+    -webkit-transform: translateY(-25%);
+            transform: translateY(-25%);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}

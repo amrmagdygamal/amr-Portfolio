@@ -1,0 +1,44 @@
+nav {
+  background: rgb(232 232 232 / 20%);
+  width: max-content;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  gap: .8rem;
+  padding: .7rem 1.7rem;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  border-radius: 3rem;
+  z-index: 2;
+  backdrop-filter: blur(15px);
+}
+
+nav a {
+  background: transparent;
+  padding: .9rem;
+  font-size: 1.1rem;
+  color: var(--light-color);
+  display: flex;
+  border-radius: 50%;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+nav a.active {
+  background: var(--primary-color);
+  color: var(--main-color);
+}
+
+@media screen and (max-width: 350px) {
+  nav {
+    padding: .7rem 1rem;
+    margin: 0 auto;
+  }
+  nav a{
+    font-size: 1rem;
+    padding: .5rem;
+  }
+}
