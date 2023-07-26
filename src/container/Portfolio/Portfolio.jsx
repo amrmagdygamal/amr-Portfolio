@@ -2,6 +2,7 @@ import { SubHeading } from '../../components';
 import './Portfolio.css';
 
 import IMG1 from '../../assets/WhatsApp Image 2023-03-01 at 18.47.14.jpg';
+import IMG12 from '../../assets/363253988_825610235949377_2456458227010679654_n.png';
 import IMG3 from '../../assets/WhatsApp Image 2023-03-01 at 19.30.19.jpg';
 import IMG4 from '../../assets/WhatsApp Image 2023-03-01 at 19.30.06.png';
 import IMG5 from '../../assets/WhatsApp Image 2023-03-01 at 18.47.20.jpg';
@@ -13,11 +14,18 @@ import IMG2 from '../../assets/363303239_1294662291168264_5232086488660585747_n.
 
 const data = [
   {
-    id: 1,
+    id: 0,
     image: IMG1,
-    title: 'Awesome Bondi Design ',
-    github: 'https://github.com/amrmagdygamal/bondi_Design',
+    title: 'Awesome Restaurant website',
+    github: 'https://github.com/amrmagdygamal/awesome-gert-resturant',
     demo: 'https://amrmagdygamal.github.io/bondi_Design/',
+  },
+  {
+    id: 1,
+    image: IMG12,
+    title: 'Awesome Bondi Design ',
+    github: 'https://github.com/amrmagdygamal/awesome-gert-resturant',
+    demo: 'https://awesome-restaurant-app.netlify.app/',
   },
   {
     id: 2,
@@ -38,7 +46,7 @@ const data = [
     image: IMG5,
     title: 'Awesome GPT3 Design',
     github: 'https://github.com/amrmagdygamal/Advaced-GPT',
-    demo: '',
+    demo: 'https://gpt3-design-amr.netlify.app/',
   },
   {
     id: 5,
@@ -112,13 +120,14 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio-cta">
-                <a href={github} className="button" target="_blank">
+                <a href={github} className="button" rel="noreferrer" target="_blank">
                   Github
                 </a>
                 <a
                   href={demo}
                   className="button primary-button"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   Live Demo
                 </a>

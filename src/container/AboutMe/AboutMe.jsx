@@ -24,12 +24,12 @@ const AboutMe = () => (
           <article className="card">
             <FaAward className='icon'/>
             <h5>Experience</h5>
-            <small>6+ Months Working With myself</small>
+            <small>11+ Months Working With myself</small>
           </article>
           <article className="card">
             <FiUsers className='icon'/>
             <h5>Clients</h5>
-            <small>Didn't Get any Clients yet because I just finished my practice</small>
+            <small>I got 1 client, And now I'm working for him</small>
           </article>
           <article className="card">
             <VscFolderLibrary className='icon'/>

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { FaFacebook } from 'react-icons/fa';
@@ -19,9 +20,9 @@ const Footer = () => (
     </ul>
 
     <div className="footer__socials">
-      <a href="https://www.linkedin.com/in/amr-magdy-658298247" target='_blank'><BsLinkedin /></a>
-      <a href="https://github.com/amrmagdygamal" target='_blank'><BsGithub /></a>
-      <a href="https://www.facebook.com/profile.php?id=100035881681593&mibextid=ZbWKwL" target='_blank'><FaFacebook /></a>
+      <a href="https://www.linkedin.com/in/amr-magdy-658298247" rel="noreferrer" target='_blank'><BsLinkedin /></a>
+      <a href="https://github.com/amrmagdygamal" rel="noreferrer" target='_blank'><BsGithub /></a>
+      <a href="https://www.facebook.com/profile.php?id=100035881681593&mibextid=ZbWKwL" rel="noreferrer" target='_blank'><FaFacebook /></a>
     </div>
 
     <div className="copyright">

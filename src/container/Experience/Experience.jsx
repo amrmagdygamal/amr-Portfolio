@@ -44,6 +44,21 @@ const Experience = () => {
               <h4>Git & Github</h4>
               <small className='text-light'>Experienced</small>
             </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>React</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>Typescript</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>Redux</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
             
           </div>
         </div>
@@ -55,28 +70,23 @@ const Experience = () => {
           <div className="skills__box">
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
-              <h4>PHP</h4>
-              <small className='text-light'>Still Learning</small>
-            </div>
-            <div className="skill-box">
-              <BsPatchCheckFill className='iconCheck' />
-              <h4>mysQl</h4>
-              <small className='text-light'>Still Learning</small>
-            </div>
-            <div className="skill-box">
-              <BsPatchCheckFill className='iconCheck' />
               <h4>Node.js</h4>
+              <small className='text-light'>Still Learning</small>
+            </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>Express</h4>
+              <small className='text-light'>Still Learning</small>
+            </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>Typescript</h4>
               <small className='text-light'>Still Learning</small>
             </div>
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
               <h4>MongoDB</h4>
               <small className='text-light'>Still Learning</small>
-            </div>
-            <div className="skill-box">
-              <BsPatchCheckFill className='iconCheck' />
-              <h4>Python</h4>
-              <small className='text-light'>Experienced</small>
             </div>
           </div>
         </div>

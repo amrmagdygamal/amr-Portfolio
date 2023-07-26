@@ -5,9 +5,9 @@ import { AiFillGithub } from 'react-icons/ai'
 
 const FindUs = () => (
   <div className='socials'>
-    <a href="https://www.linkedin.com/in/amr-magdy-658298247" target="_blank" ><BsLinkedin /></a>
-    <a href="https://github.com/amrmagdygamal" target="_blank" ><AiFillGithub /></a>
-    <a href="https://www.facebook.com/profile.php?id=100035881681593&mibextid=ZbWKwL" target="_blank" ><BsFacebook /></a>
+    <a href="https://www.linkedin.com/in/amr-magdy-658298247" rel="noreferrer" target="_blank" ><BsLinkedin /></a>
+    <a href="https://github.com/amrmagdygamal" target="_blank" rel="noreferrer" ><AiFillGithub /></a>
+    <a href="https://www.facebook.com/profile.php?id=100035881681593&mibextid=ZbWKwL" rel="noreferrer" target="_blank" ><BsFacebook /></a>
   </div>
 );
 

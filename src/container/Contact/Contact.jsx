@@ -21,13 +21,13 @@ const Contact = () => (
           <RiMessengerLine className='icon' />
           <h4>Messenger</h4>
           <h5>Amr Magdy</h5>
-          <a href="https://m.me/amrMagdy25.200" target='_blank'>Send a Message</a>
+          <a href="https://m.me/amrMagdy25.200" target='_blank' rel="noreferrer">Send a Message</a>
         </article>
         <article className="contact-option">
           <BsWhatsapp className='icon'/>
           <h4>WhatsApp</h4>
           <h5>+201095330155</h5>
-          <a href="https://api.whatsapp.com/send?phone=201095330155" target='_blank'>Send a Message</a>
+          <a href="https://api.whatsapp.com/send?phone=201095330155" target='_blank' rel="noreferrer">Send a Message</a>
         </article>
       </div>
 
