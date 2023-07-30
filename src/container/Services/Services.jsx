@@ -45,27 +45,23 @@ const Services = () => (
         <ul className="services__list">
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Full stack web development: End-to-end solutions for web development projects.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Providing customized web applications for clients based on their specific needs and requirements.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Front-end development services using HTML, CSS, and JavaScript, along with popular front-end frameworks like React</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Back-end development services using Node.js, Express.js</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </li>
-          <li>
-            <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Database design and management services for designing and managing databases, using MongoDB.</p>
           </li>
         </ul>
       </article>

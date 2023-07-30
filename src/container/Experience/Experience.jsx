@@ -71,22 +71,22 @@ const Experience = () => {
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
               <h4>Node.js</h4>
-              <small className='text-light'>Still Learning</small>
+              <small className='text-light'>Experienced</small>
             </div>
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
               <h4>Express</h4>
-              <small className='text-light'>Still Learning</small>
+              <small className='text-light'>Experienced</small>
             </div>
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
               <h4>Typescript</h4>
-              <small className='text-light'>Still Learning</small>
+              <small className='text-light'>Experienced</small>
             </div>
             <div className="skill-box">
               <BsPatchCheckFill className='iconCheck' />
               <h4>MongoDB</h4>
-              <small className='text-light'>Still Learning</small>
+              <small className='text-light'>Experienced</small>
             </div>
           </div>
         </div>

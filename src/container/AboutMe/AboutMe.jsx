@@ -38,7 +38,11 @@ const AboutMe = () => (
           </article>
         </div>
         
-        <p>I Study for more than 13 hours every day because I need to get hired as soon as possible with any salary. I Love learning I will keep learing and develop myself because I have a high ambtions. I need to get jop to help my father.</p>
+        <p>• Hi there, my name is Amr Magdy and I am a full-stack
+developer with expertise in the MERN stack and a
+strong knowledge of JavaScript. I specialize in building scalable and efficient web applications using modern web technologies.
+<br />• I have built several websites with extensive functionality, including an e-commerce site, admin panels, a
+restaurant website, and much more.</p>
         
         <a href="#contact" className='button primary-button'>Hire me </a>
       </div>
