@@ -24,25 +24,24 @@ const AboutMe = () => (
           <article className="card">
             <FaAward className='icon'/>
             <h5>Experience</h5>
-            <small>11+ Months Working With myself</small>
+            <small>1.5+ Year Working Freelance</small>
           </article>
           <article className="card">
             <FiUsers className='icon'/>
             <h5>Clients</h5>
-            <small>I got 1 client, And now I'm working for him</small>
+            <small>4 clients, 4 different projects.</small>
           </article>
           <article className="card">
             <VscFolderLibrary className='icon'/>
             <h5>Projects</h5>
-            <small>7+ Completed</small>
+            <small>20 Completed</small>
           </article>
         </div>
         
         <p>• Hi there, my name is Amr Magdy and I am a full-stack
 developer with expertise in the MERN stack and a
-strong knowledge of JavaScript. I specialize in building scalable and efficient web applications using modern web technologies.
-<br />• I have built several websites with extensive functionality, including an e-commerce site, admin panels, a
-restaurant website, and much more.</p>
+strong knowledge of Front-end, and Back-end. I specialize in building scalable and efficient web applications using modern web technologies.
+<br />• I have built several websites with extensive functionality.</p>
         
         <a href="#contact" className='button primary-button'>Hire me </a>
       </div>

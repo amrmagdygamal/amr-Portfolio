@@ -1,5 +1,5 @@
 
-import CV from '../../assets/myCV.pdf'
+import CV from '../../assets/amrcv.pdf'
 const CTA = () => {
   return (
     <>

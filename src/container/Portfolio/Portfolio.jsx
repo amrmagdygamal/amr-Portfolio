@@ -12,7 +12,15 @@ import IMG8 from '../../assets/363047590_6254964887963371_928288441250650524_n.p
 import IMG9 from '../../assets/WhatsApp Image 2023-03-05 at 13.54.49.png';
 import IMG2 from '../../assets/363303239_1294662291168264_5232086488660585747_n.png';
 
+
 const data = [
+  {
+    id: 8,
+    image: IMG9,
+    title: 'Amazon Clone Userside',
+    github: 'https://github.com/amrmagdygamal?tab=repositories/',
+    demo: 'https://superstore-frontend.netlify.app/',
+  },
   {
     id: 0,
     image: IMG1,
@@ -70,13 +78,6 @@ const data = [
     demo: 'https://my-simplenotesapp.netlify.app/',
   },
   {
-    id: 8,
-    image: IMG9,
-    title: 'Amazon Clone Userside',
-    github: 'https://github.com/amrmagdygamal?tab=repositories/',
-    demo: 'https://superstore-frontend.netlify.app/',
-  },
-  {
     id: 9,
     image: IMG2,
     title: 'Finance DashBoard',
@@ -98,7 +99,7 @@ const Portfolio = () => {
             marginBottom: '3rem',
           }}
         >
-          <p className='sec_h2' style={{marginBottom: ".3rem"}}>
+          <p className='sec_h2' style={{ marginBottom: ".3rem" }}>
             I deployed my servers on free host so you might not get the data at
             once in the websites. If so reload the page or close it and open it
             again.
@@ -110,8 +111,26 @@ const Portfolio = () => {
           </p>
         </article>
       </div>
-
       <div className="container portfolio__container">
+        <article className="portfolio">
+          <div className="portfolio-image">
+            <img src="/floors.jpg" alt="Floors" />
+          </div>
+          <h3>Floors Platform (the most important one!)</h3>
+          <div className="portfolio-cta">
+            <a href="https://floorsplatform.com" className="button" rel="noreferrer" target="_blank">
+              Demo
+            </a>
+            <a
+              href="https://youtu.be/ThEpHvO5kG0?si=oCJKwPGOap9ye3yn"
+              className="button primary-button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Preview
+            </a>
+          </div>
+        </article>
         {data.map(({ id, image, title, github, demo }) => {
           return (
             <article key={id} className="portfolio">

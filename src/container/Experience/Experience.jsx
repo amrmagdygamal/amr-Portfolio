@@ -88,6 +88,11 @@ const Experience = () => {
               <h4>MongoDB</h4>
               <small className='text-light'>Experienced</small>
             </div>
+            <div className="skill-box">
+              <BsPatchCheckFill className='iconCheck' />
+              <h4>Socket.io</h4>
+              <small className='text-light'>Experienced</small>
+            </div>
           </div>
         </div>
       </div>
