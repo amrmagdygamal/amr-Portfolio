@@ -24,24 +24,33 @@ const AboutMe = () => (
           <article className="card">
             <FaAward className='icon'/>
             <h5>Experience</h5>
-            <small>1.5+ Year Working Freelance</small>
+            <small>2.5+ Years as a full-stack </small>
           </article>
           <article className="card">
             <FiUsers className='icon'/>
             <h5>Clients</h5>
-            <small>4 clients, 4 different projects.</small>
+            <small>7 clients, 9 different projects.</small>
           </article>
           <article className="card">
             <VscFolderLibrary className='icon'/>
             <h5>Projects</h5>
-            <small>20 Completed</small>
+            <small>30 Completed</small>
           </article>
         </div>
         
-        <p>• Hi there, my name is Amr Magdy and I am a full-stack
-developer with expertise in the MERN stack and a
-strong knowledge of Front-end, and Back-end. I specialize in building scalable and efficient web applications using modern web technologies.
-<br />• I have built several websites with extensive functionality.</p>
+        <p>My name is Amr Magdy Gamal, I am a full-stack developer with expertise in building advanced and multifunctional web applications, complex desktop applications, and mobile apps.      I work as:
+1- Web frontend: 
+Long Experience in building responsive and user-friendly interfaces with React.js, Tailwind CSS, Bootstrap, and Material UI.
+Real Skillful working with Redux Toolkit and Zustand. 
+I have some knowledge about next.js like: File-Based Routing - SSR - Static Site Generation - Client-Side Rendering - Hybrid Approach. 
+2-Mobile frontend: good Knowledge of React Native. 
+3-Backend: 
+-Expertise in developing robust server-side applications with Node.js, TypeScript, and Express.js. 
+Working with MongoDB and SQL. 
+Experience of using Socket.io. 
+Creating RESTful APIs tailored to client needs. 
+4-Electron.js for desktop with frontend and backend technologies.
+</p>
         
         <a href="#contact" className='button primary-button'>Hire me </a>
       </div>

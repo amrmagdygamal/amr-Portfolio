@@ -114,15 +114,25 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio">
           <div className="portfolio-image">
-            <img src="/floors.jpg" alt="Floors" />
+            <img src="../../assets/WhatsApp Image 2025-01-02 at 16.35.01_d33c07d1.jpg" alt="Floors" />
           </div>
-          <h3>Floors Platform (the most important one!)</h3>
+          <h3>MGT Control</h3>
           <div className="portfolio-cta">
-            <a href="https://floorsplatform.com" className="button" rel="noreferrer" target="_blank">
+            <a href="https://195.35.24.48/" className="button" rel="noreferrer" target="_blank">
               Demo
             </a>
+            
+          </div>
+        </article>
+        <article className="portfolio">
+          <div className="portfolio-image">
+            <img src="/floors.jpg" alt="Floors" />
+          </div>
+          <h3>Floors Platform (HR Management)</h3>
+          <div className="portfolio-cta">
+          
             <a
-              href="https://youtu.be/ThEpHvO5kG0?si=oCJKwPGOap9ye3yn"
+              href="https://www.youtube.com/watch?v=qeLoW0pzcUY&feature=youtu.be"
               className="button primary-button"
               target="_blank"
               rel="noreferrer"

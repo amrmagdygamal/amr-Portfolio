@@ -1,6 +1,6 @@
-import React from 'react';
-import { BiCheck } from 'react-icons/bi';
-import { SubHeading } from '../../components';
+import React from 'react'; 
+import { BiCheck } from 'react-icons/bi'; 
+import { SubHeading } from '../../components'; 
 
 import './Services.css';
 
@@ -17,23 +17,23 @@ const Services = () => (
         <ul className="services__list">
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Designing responsive and user-friendly interfaces with a focus on great user experience.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Creating pixel-perfect designs using modern design tools like Figma and Sketch.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Wireframing and prototyping to visualize the user flow and layout of applications.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Collaborating with clients to ensure the design meets their requirements and brand guidelines.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Developing interactive elements that enhance the user experience using React.js and Tailwind CSS.</p>
           </li>
         </ul>
       </article>
@@ -49,47 +49,59 @@ const Services = () => (
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Providing customized web applications for clients based on their specific needs and requirements.</p>
+            <p>Providing customized web applications tailored to client-specific needs and requirements.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Front-end development services using HTML, CSS, and JavaScript, along with popular front-end frameworks like React</p>
+            <p>Front-end development using React.js, Redux Toolkit, Tailwind CSS, Bootstrap, and Material UI.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Back-end development services using Node.js, Express.js</p>
+            <p>Back-end development using Node.js, Express.js, and TypeScript for scalable server-side applications.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Database design and management services for designing and managing databases, using MongoDB.</p>
+            <p>Designing and managing databases with MongoDB, SQL, and integrating RESTful APIs.</p>
           </li>
         </ul>
       </article>
       <article className='services'>
         <div className="services__heading">
-          <h3>Content Creation</h3>
+          <h3>Mobile Development</h3>
         </div>
 
         <ul className="services__list">
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Developing cross-platform mobile apps using React Native, with a focus on performance and usability.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Integrating mobile apps with backend APIs and real-time data using technologies like Socket.io.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Optimizing mobile apps for smooth performance across iOS and Android platforms.</p>
+          </li>
+        </ul>
+      </article>
+      <article className='services'>
+        <div className="services__heading">
+          <h3>Desktop Applications</h3>
+        </div>
+
+        <ul className="services__list">
+          <li>
+            <BiCheck className='list-icon'/>
+            <p>Developing cross-platform desktop applications using Electron.js, combining frontend and backend technologies.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Providing offline-first solutions with local storage and seamless syncing when online.</p>
           </li>
           <li>
             <BiCheck className='list-icon'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Packaging and distributing desktop apps for Windows, Mac, and Linux.</p>
           </li>
         </ul>
       </article>
