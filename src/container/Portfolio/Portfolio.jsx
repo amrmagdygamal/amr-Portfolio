@@ -114,7 +114,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         <article className="portfolio">
           <div className="portfolio-image">
-            <img src="../../assets/WhatsApp Image 2025-01-02 at 16.35.01_d33c07d1.jpg" alt="Floors" />
+            <img src="../../assets/mgt-dash.jpg" alt="mgt" />
           </div>
           <h3>MGT Control</h3>
           <div className="portfolio-cta">
@@ -126,7 +126,7 @@ const Portfolio = () => {
         </article>
         <article className="portfolio">
           <div className="portfolio-image">
-            <img src="/floors.jpg" alt="Floors" />
+            <img src="../../assets/mgt-dash.jpeg" alt="Floors" />
           </div>
           <h3>Floors Platform (HR Management)</h3>
           <div className="portfolio-cta">

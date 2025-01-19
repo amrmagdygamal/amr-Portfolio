@@ -1,23 +1,27 @@
 .experience {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 4rem;
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100 !important;
 }
 
 
 .experience__part {
   background: var(--color-variant);
-  padding: 1.4rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
-  display: flex;
-  flex-direction: column;
-
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    display: flex
+;
+    flex-direction: column;
+    padding: 1.4rem 0;
+  width: 25rem;
 }
 
- .experience__backend:hover {
-background: transparent;
-border-color: var(--primary-variant);
+.experience__backend:hover {
+  background: transparent;
+  border-color: var(--primary-variant);
 
 }
 
@@ -38,7 +42,7 @@ border-color: var(--primary-variant);
 .skill__box {
   display: flex;
   gap: 1rem;
-  
+
 }
 
 .iconCheck {
