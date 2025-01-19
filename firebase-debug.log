@@ -144,3 +144,38 @@ Before we get started, keep in mind:
     at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
 [error] 
 [error] Error: Failed to get Firebase project amr-portfolio. Please make sure the project exists and your account has permission to access it.
+[debug] [2025-01-19T16:59:05.232Z] ----------------------------------------------------------------------
+[debug] [2025-01-19T16:59:05.235Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ThisPC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2025-01-19T16:59:05.235Z] CLI Version:   13.29.1
+[debug] [2025-01-19T16:59:05.236Z] Platform:      win32
+[debug] [2025-01-19T16:59:05.236Z] Node Version:  v18.14.2
+[debug] [2025-01-19T16:59:05.237Z] Time:          Sun Jan 19 2025 18:59:05 GMT+0200 (Eastern European Standard Time)
+[debug] [2025-01-19T16:59:05.237Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-01-19T16:59:05.508Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-01-19T16:59:05.510Z] > authorizing via signed-in user (amroraker@gmail.com)
+[debug] [2025-01-19T16:59:05.514Z] Checked if tokens are valid: false, expires at: 1702718717648
+[debug] [2025-01-19T16:59:05.516Z] Checked if tokens are valid: false, expires at: 1702718717648
+[debug] [2025-01-19T16:59:05.518Z] > refreshing access token with scopes: []
+[debug] [2025-01-19T16:59:05.525Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-01-19T16:59:05.526Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-19T16:59:06.195Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-01-19T16:59:06.196Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-19T16:59:06.204Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=1000
+[debug] [2025-01-19T16:59:06.796Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 401
+[debug] [2025-01-19T16:59:06.797Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2025-01-19T16:59:06.797Z] Got a 401 Unauthenticated error for a call that required authentication. Refreshing tokens.
+[debug] [2025-01-19T16:59:06.798Z] Checked if tokens are valid: false, expires at: 1702718717648
+[debug] [2025-01-19T16:59:06.799Z] Checked if tokens are valid: false, expires at: 1702718717648
+[debug] [2025-01-19T16:59:06.799Z] > refreshing access token with scopes: []
+[debug] [2025-01-19T16:59:06.802Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-01-19T16:59:06.803Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-19T16:59:07.131Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 400
+[debug] [2025-01-19T16:59:07.131Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-01-19T16:59:07.135Z] Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+[debug] [2025-01-19T16:59:07.747Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects?pageSize=1000 had HTTP Error: 401, Request had invalid authentication credentials. Expected OAuth 2 access token, login cookie or other valid authentication credential. See https://developers.google.com/identity/sign-in/web/devconsole-project.
+    at responseToError (C:\Users\ThisPC\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\ThisPC\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
