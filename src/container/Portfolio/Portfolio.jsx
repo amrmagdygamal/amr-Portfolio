@@ -118,10 +118,17 @@ const Portfolio = () => {
           </div>
           <h3>MGT Control</h3>
           <div className="portfolio-cta">
-            <a href="https://195.35.24.48/" className="button" rel="noreferrer" target="_blank">
+            <a href="https://mgt-lastv.vercel.app" className="button" rel="noreferrer" target="_blank">
               Demo
             </a>
-            
+             <a
+              href="https://drive.google.com/file/d/1oAGDhX_QaA1G0RuzjtvcddbVcD24Hhmq/view?usp=sharing"
+              className="button primary-button"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Preview
+            </a>
           </div>
         </article>
         <article className="portfolio">
