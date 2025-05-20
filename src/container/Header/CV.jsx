@@ -1,5 +1,5 @@
 
-import CV from '../../assets/amrcv.pdf'
+import CV from '../../assets/Amr-Magdy-lebenslauf.pdf'
 const CTA = () => {
   return (
     <>
